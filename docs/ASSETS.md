@@ -1,5 +1,9 @@
 # 素材来源
 
+## 标题字体
+
+首屏强调文字与章节标题使用 Noto Serif SC 的粗体字形，来源为 [Google Fonts](https://github.com/google/fonts/tree/main/ofl/notoserifsc)。`assets/noto-serif-sc-heading.woff2` 由 Google Fonts 按当前静态标题的字符生成子集，仅用于固定标题；未包含的字符回退到系统宋体。字体随站点本地加载，不向字体服务发起运行时请求。授权为 SIL Open Font License 1.1，完整文本见 `assets/NOTO_SERIF_SC_OFL.txt`。
+
 ## 大肥鱼
 
 当前页面使用 `assets/fish_whale.svg`：本项目原创的灰蓝色胖鲸鱼剪影，320×160 两帧，左侧睁眼，右侧闭眼并配 Zzz。使用原生路径与局部引用，没有嵌入位图、脚本或外部资源；透明背景，与江岸插画使用同一组灰蓝配色。桌面显示窗口 112px，手机 80px。

@@ -1,5 +1,9 @@
 # 测试与验收
 
+## 首屏视觉预览（2026-11-03）
+
+人工查看了桌面、390px 和 320px 的首页排版；桌面和 390px 截图分别为 `screenshots/homepage-20261103-desktop.png`、`screenshots/homepage-20261103-mobile.png`。本次没有运行自动化测试，也未逐项验收交互。
+
 ## 自动化
 
 `npm test` 使用 Node 自带测试运行器，无测试依赖。

@@ -2,6 +2,7 @@
 
 纯静态站点，没有 HTTP 业务接口。
 
+- 首屏的“按地区和兴趣选”链接到 `#afternoon`；“看看慢游路线”链接到 `#walks`，均复用页面已有内容。
 - `restoreState(value)`：从未知本地内容恢复 version、popped、saved；去重并剔除无效场景和未戳破的收藏。
 - `updateState(state, {type, id})`：纯函数，支持 pop/save/remove，不修改旧状态，未知动作不变。
 - `readState(storage)`：返回 `{state, error}`，读取异常可继续体验但需提示。
