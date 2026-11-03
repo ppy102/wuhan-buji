@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="160" viewBox="0 0 320 160" fill="none">
+  <title>一条不着急的小蓝鲸</title>
+  <defs>
+    <g id="whale">
+      <path d="M36 78c0-24 17-40 41-40 25 0 40 17 40 38 6-2 10-7 12-14 7 5 10 11 9 18 8 0 14-3 20-8-1 19-12 29-29 28-11 14-29 23-51 23-25 0-42-18-42-45Z" fill="#8ca8ac"/>
+      <path d="M81 100c1 9 8 16 16 15 0-7-4-14-11-18" fill="#78969d"/>
+      <path d="M47 96c4 3 9 3 13 0" stroke="#f6f5ef" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <use href="#whale"/>
+  <circle cx="52" cy="80" r="2.2" fill="#f6f5ef"/>
+  <g transform="translate(160)">
+    <use href="#whale"/>
+    <path d="M48 80q4 4 8 0" stroke="#f6f5ef" stroke-width="2" stroke-linecap="round"/>
+    <g stroke="#879e9c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M105 38h8l-8 9h8m8-21h7l-7 8h7m8-18h6l-6 7h6"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" fill="none">
+<defs><pattern id="water" width="100" height="32" patternUnits="userSpaceOnUse"><path d="M5 12q20-6 42-1m22 13h17" stroke="#a8bcbc" stroke-width="1" opacity=".45"/></pattern><symbol id="arch" viewBox="0 0 90 70"><path d="M0 10h90M0 17h90M0 21q45 4 45 49M90 21Q45 25 45 70M0 20v50m90-50v50" stroke="currentColor" stroke-width="2"/></symbol></defs>
+<path d="M61 292C19 241 47 141 118 110S207 60 287 84 394 43 479 76s142 82 147 148 45 79 5 143S509 441 412 427 222 460 136 398 78 352 61 292Z" fill="#e8ede5"/>
+<circle cx="475" cy="137" r="45" fill="#e9d9b3" opacity=".85"/>
+<path d="M77 253q69-51 122-31t117-8q77-28 150 8t164 7" fill="#d7e0d9"/>
+<g stroke="#a4b2aa" stroke-width="1.5"><path d="M326 225v-30h12v30m8 0v-43h14v43m12 0v-28h14v28m10 0v-55h14v55m11 0v-36h17v36m10 0v-19h12v19m62 0v-27h17v27"/><path d="M403 170v-13m-3 7h6"/></g>
+<path d="M53 268q114-31 243-13t209-7q81-12 135 10v93q-17 65-93 80t-178-8Q168 449 78 366Z" fill="#dce8e7"/>
+<path d="M53 268q114-31 243-13t209-7q81-12 135 10v93q-17 65-93 80t-178-8Q168 449 78 366Z" fill="url(#water)"/>
+<g color="#96aaa5" opacity=".9"><use href="#arch" x="76" y="206" width="90" height="70"/><use href="#arch" x="166" y="206" width="90" height="70"/><use href="#arch" x="256" y="206" width="90" height="70"/><path d="M76 215H56m290 0h33" stroke="currentColor" stroke-width="2"/></g>
+<g stroke="#718e8a" stroke-width="1.6" stroke-linejoin="round"><path d="M385 295h103l-12 18h-75z" fill="#f6f5ef"/><path d="M401 294v-20h68v20" fill="#f6f5ef"/><path d="M421 274v-10h28v10" fill="#e2caa3"/><path d="M412 282h8m9 0h8m9 0h8M437 264v-13"/><path d="M385 321q18-5 35 0m23-1h39" opacity=".5"/></g>
+<path d="M91 352q130-21 232 37t247 16q-58 53-169 46T207 432Q124 419 91 352Z" fill="#d2d9be"/>
+<path d="M104 366q94-17 204 38t242 12" stroke="#f6f5ef" stroke-width="14"/>
+<g stroke="#899780" stroke-width="2" stroke-linecap="round"><path d="M184 372q5-102-15-162m12 98-35-37m33 12 32-43"/><path d="M164 225q-43 16-44-17-39 2-27-28-21-27 12-41 0-31 34-25 21-31 43-9 35-10 40 21 36 2 28 33 21 28-13 42-5 34-42 25" fill="#bacbb4" stroke="none"/><path d="M111 164q25-19 44-7m34-24q22 4 28 17" opacity=".5"/></g>
+<g stroke="#7f8e7e" stroke-width="2.5" stroke-linecap="round"><path d="m258 370 87 21m-83-31 87 21m-82-31 87 21m-95 24 78 19m-71-26-8 29m72-13-5 28m-68-51 6 21m80-1-6 22"/><path d="m258 370 5-18m80 38 5-17"/></g>
+<g stroke="#879c97" stroke-width="1.6" stroke-linecap="round"><path d="m348 130 8-3 9 4m21-12 6-2 7 3"/><path d="M518 356h39m-305-32h23m-109-28h35m331-25h24" opacity=".6"/></g>
+<path d="m122 392-3-11m8 12 5-8m355 48 1-12m5 12 5-7" stroke="#8c9f7e" stroke-width="2" stroke-linecap="round"/>
+</svg>

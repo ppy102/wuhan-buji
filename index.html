@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5ef">
+  <meta name="description" content="武汉不急。你也可以不急。戳一颗泡泡，留一个不用赶路的下午给自己。">
+  <title>武汉不急。你也可以不急。</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="chapters.css">
+  <script type="module" src="src/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#afternoon">跳到下午泡泡</a>
+  <svg class="svg-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <symbol id="boat" viewBox="0 0 64 64"><path d="M9 37h46l-7 12H19zM19 36V23h25v13M26 23v-7h11v7M23 29h5m7 0h5M10 54q6-4 12 0t12 0t12 0t11 0"/></symbol>
+      <symbol id="tea" viewBox="0 0 64 64"><path d="M15 28h30v12q0 12-15 12T15 40zm30 2h5q11 7 0 13h-6M11 55h39M23 21q-6-5 0-11m12 11q-6-5 0-11"/></symbol>
+      <symbol id="leaf" viewBox="0 0 64 64"><path d="M16 48Q2 19 50 11q7 42-30 38M13 56l30-33M24 44l-1-13m7 7 13-1"/></symbol>
+      <symbol id="bowl" viewBox="0 0 64 64"><path d="M10 32h44q-4 20-22 20T10 32zm10 23h24M22 27l-4-11m12 11-4-11m9 7L49 6m-7 21L56 10M17 38q9-6 16 1t14-1"/></symbol>
+      <symbol id="cloud" viewBox="0 0 64 64"><path d="M17 45a10 10 0 0 1-1-20 16 16 0 0 1 31-3 12 12 0 0 1 0 23ZM14 53h25"/></symbol>
+      <symbol id="book" viewBox="0 0 64 64"><path d="M32 19Q17 10 9 17v33q12-6 23 1 12-7 23-1V17q-10-7-23 2v32M16 26l9 2m-9 8 9 2m14-10 9-2m-9 12 9-2"/></symbol>
+      <symbol id="swing" viewBox="0 0 64 64"><path d="M8 54 23 10h18l15 44M18 16h28M26 17v25m12-25v25M22 43h20v6H22Z"/></symbol>
+      <symbol id="sun" viewBox="0 0 64 64"><path d="M10 42h44M19 42a13 13 0 1 1 26 0M32 10v7M9 23l6 4m34 0 6-4M17 52h30"/></symbol>
+      <symbol id="house" viewBox="0 0 64 64"><path d="m9 29 23-18 23 18M15 27v27h34V27M27 54V39h11v15M21 30h6v6h-6"/></symbol>
+      <symbol id="rain" viewBox="0 0 64 64"><path d="M16 36a9 9 0 0 1 0-18 15 15 0 0 1 29-1 10 10 0 0 1 2 19ZM20 44l-4 8m17-8-4 8m17-8-4 8"/></symbol>
+      <symbol id="bench" viewBox="0 0 64 64"><path d="M13 20h38v8H13Zm0 13h38M9 39h46v6H9Zm7 6v11m32-11v11M17 28v11m30-11v11"/></symbol>
+    </defs>
+  </svg>
+  <header class="site-header wrap">
+    <a class="brand" href="#" aria-label="武汉不急首页"><img src="assets/mark.svg" width="36" height="36" alt="">武汉不急<span class="brand-dot">。</span></a>
+    <nav aria-label="页面导航">
+      <button id="sound-toggle" class="quiet-button" aria-pressed="false" aria-label="泡泡轻响开关"><span aria-hidden="true">♫</span> 轻响<span id="sound-label">关</span></button>
+      <button id="pocket-open" class="pocket-button">今天的口袋 <span id="saved-count">0</span></button>
+    </nav>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="place-note"><span></span> 江城，今天也慢一点</p>
+        <h1 id="hero-title">武汉不急<span>。</span></h1>
+        <p class="hero-subtitle">你也可以不急。</p>
+        <p class="hero-description">把行程放一边，把下午留给自己。<br>江风还在吹，先坐一会儿。</p>
+        <a class="primary-button" href="#afternoon">找个地方慢慢逛 <span aria-hidden="true">↓</span></a>
+        <p class="hero-footnote">没有行程要赶，也没有什么要完成。</p>
+      </div>
+      <div class="hero-art">
+        <span class="art-caption">一江水，慢慢流。</span>
+        <img class="river-art" src="assets/river.svg" width="700" height="520" alt="暖阳下的武汉江岸：远处的大桥、一艘轮渡和树荫下的空长椅。">
+        <span class="hand-note">这里，留了个位置给你。<span aria-hidden="true">⤴</span></span>
+      </div>
+    </section>
+    <div class="river-divider wrap" aria-hidden="true"><span>风吹到哪，就坐到哪</span><i></i><span>～</span></div>
+    <nav class="chapter-nav wrap" aria-label="随便逛逛"><a href="#afternoon">戳一颗泡泡</a><a href="#worries">放下一点烦恼</a><a href="#soundscapes">听听武汉</a><a href="#notes">留一句话</a></nav>
+    <section class="afternoon wrap" id="afternoon" aria-labelledby="afternoon-title">
+      <div class="section-intro"><div><p class="small-note">给自己一点空白</p><h2 id="afternoon-title">戳破武汉的下午</h2></div><p>按想去的地方或想做的事选一选。<br>戳开泡泡，看看怎么开始。</p></div>
+      <div class="place-filters" aria-label="挑选去处">
+        <div class="filter-group" id="region-filter" role="group" aria-labelledby="region-label"><span id="region-label">想去哪里</span><div><button type="button" data-region="all" aria-pressed="true">都看看</button><button type="button" data-region="汉口" aria-pressed="false">汉口</button><button type="button" data-region="武昌" aria-pressed="false">武昌</button><button type="button" data-region="汉阳" aria-pressed="false">汉阳</button></div></div>
+        <div class="filter-group" id="theme-filter" role="group" aria-labelledby="theme-label"><span id="theme-label">想做什么</span><div><button type="button" data-theme="all" aria-pressed="true">都可以</button><button type="button" data-theme="看江湖" aria-pressed="false">看江湖</button><button type="button" data-theme="吃过早" aria-pressed="false">吃过早</button><button type="button" data-theme="逛街巷" aria-pressed="false">逛街巷</button><button type="button" data-theme="走公园" aria-pressed="false">走公园</button><button type="button" data-theme="看建筑" aria-pressed="false">看建筑</button></div></div>
+        <p class="filter-status" id="filter-status" role="status">这里有 16 个去处，慢慢挑。</p>
+        <p class="filter-empty" id="filter-empty" hidden><button type="button" class="quiet-button" id="filter-reset">看看全部</button></p>
+      </div>
+      <div class="bubble-grid" id="bubble-grid"></div>
+      <p class="bubble-hint">戳过的泡泡也可以再看看 <span aria-hidden="true">·</span> 不用全部戳完</p>
+      <aside class="walks" aria-labelledby="walks-title">
+        <div class="walks-intro"><p class="small-note">想少费一点心</p><h3 id="walks-title">两条慢慢走的小路线</h3><p>每条只串两个地方，中途想歇就歇。</p></div>
+        <div class="walk-list">
+          <article class="walk"><p>汉口 · 江边</p><h4>江汉关 → 汉口江滩</h4><p>先看看钟楼，再去江边找个位置坐坐。不必走完整段江滩。</p><div><button type="button" data-walk-scene="river">看看江汉关</button><button type="button" data-walk-scene="shade">看看江滩</button></div></article>
+          <article class="walk"><p>武昌 · 街巷</p><h4>昙华林 → 粮道街</h4><p>在老街看看建筑，饿了再到粮道街挑点吃的。店铺营业时间各不相同。</p><div><button type="button" data-walk-scene="book">看看昙华林</button><button type="button" data-walk-scene="noodles">看看粮道街</button></div></article>
+        </div>
+      </aside>
+      <aside class="fish-companion" aria-label="大肥鱼陪伴">
+        <button id="fish-button" class="fish-portrait" aria-label="和大肥鱼歇一会儿"><img id="fish-image" src="assets/fish_whale.svg" data-state="idle" width="320" height="160" alt="一条圆滚滚的灰蓝色小鲸鱼"></button>
+        <div class="fish-dialogue"><span class="fish-name">大肥鱼正在摸鱼</span><p id="fish-message" aria-live="polite">好无聊哦……不过这样也蛮好。</p></div><span class="fish-doodle" aria-hidden="true">z z Z</span>
+      </aside>
+    </section>
+    <section class="chapter wrap" id="worries" aria-labelledby="worry-title">
+      <div class="section-intro"><div><p class="small-note">把安排松一松</p><h2 id="worry-title">撕掉“来都来了”</h2></div><p>有些念头，先不带着走。<br>挑一张，或者自己写一点。</p></div>
+      <div class="worry-layout"><div><div id="worry-presets" class="worry-presets" aria-label="选一条烦恼"></div><p class="chapter-footnote">不用解决所有事，放下一点就好。</p></div>
+        <form id="worry-form"><div class="worry-paper" id="worry-paper"><label for="worry-input">这会儿，有点放不下的是……</label><textarea id="worry-input" maxlength="80" rows="3" placeholder="比如：走累了，还是怕少看一个地方"></textarea><span class="paper-tear" aria-hidden="true"></span></div><div class="form-actions"><button class="primary-button" type="submit">撕掉这一点</button><button type="button" class="quiet-button" id="worry-skip">算了，下次</button></div></form>
+      </div><ol id="worry-history" class="worry-history" aria-live="polite" aria-label="刚放下的烦恼"></ol>
+    </section>
+    <section class="chapter sound-chapter wrap" id="soundscapes" aria-labelledby="sound-title">
+      <div class="section-intro"><div><p class="small-note">把耳朵留在这里</p><h2 id="sound-title">武汉的底噪</h2></div><p>不戴耳机也没关系。<br>安静也是这里的一种声音。</p></div>
+      <div id="soundscape-grid" class="soundscape-grid"></div><div class="sound-controls"><p id="ambient-status" role="status"></p><button id="ambient-stop" class="quiet-button">全部停下</button></div><p class="chapter-footnote">这些声音是合成的城市意象。一次只听一种，关掉时会慢慢淡下去。</p>
+    </section>
+    <section class="chapter wrap" id="notes" aria-labelledby="note-title">
+      <div class="section-intro"><div><p class="small-note">这一页，留给你</p><h2 id="note-title">写给武汉的一句话</h2></div><p>不发给谁，只留给自己。<br>也可以带走一张小存根。</p></div>
+      <div class="note-layout"><form id="note-form"><label for="note-input">在武汉，你想把哪个下午留给自己？</label><textarea id="note-input" maxlength="120" rows="5" placeholder="想在江边坐着，看船来来往往。"></textarea><p class="chapter-footnote">最多 120 字，只保存在这个浏览器。再次保存会替换上一张。</p><div class="form-actions"><button type="submit" class="primary-button">存下这个下午</button><button type="button" id="note-skip" class="quiet-button">算了，下次</button></div><button type="button" id="receipt-export" class="export-button" disabled>带走这张存根 ↓</button></form>
+        <div class="receipt-space"><article id="receipt-preview" class="receipt-paper" aria-label="你的下午存根" hidden><p class="receipt-brand">武汉不急。</p><p class="small-note">留给自己的一小张下午</p><blockquote id="receipt-text"></blockquote><div class="receipt-meta"><time id="receipt-date"></time><span>配着<span id="receipt-tag"></span></span></div><p class="receipt-bottom">你也可以不急。</p></article><p class="receipt-empty">写下一句，<br>这里就会多一张下午。</p></div>
+      </div>
+    </section>
+    <section class="closing wrap"><span aria-hidden="true">﹏</span><h2>今天就到这里，也很好。</h2><p>武汉还有很多个下午。下次再慢慢来。</p><a href="#hero-title">回江边坐坐 ↑</a></section>
+  </main>
+  <footer class="site-footer wrap"><p>武汉不急。<span>一个可以什么都不做的小地方。</span></p><details><summary>关于这里与素材</summary><p>这是「武汉不急」的第一张小册子。选择仅保存在当前浏览器，没有账号与公开留言。</p><p>小鲸鱼、江岸与地点线稿为本项目原创 SVG；地标图是简化意象。实景照片在卡片上标注作者和许可。小鲸鱼闭眼时，旁边会出现小小的 Zzz。</p></details></footer>
+  <dialog id="scene-dialog" aria-labelledby="scene-title"><div class="scene-card"><button class="dialog-close" data-close aria-label="关闭场景卡">×</button>
+    <div class="scene-layout">
+      <div class="scene-heading"><p class="small-note" id="scene-when"></p><p id="scene-place" class="scene-place"></p><h2 id="scene-title"></h2><p id="scene-location" class="scene-location"></p></div>
+      <div class="scene-visual"><figure id="scene-artwork" class="place-polaroid" hidden><picture><source id="scene-photo" type="image/jpeg"><img id="scene-image" src="assets/clock_study.svg" width="400" height="400" alt="江汉关的低饱和线描示意插画"></picture><figcaption><span id="scene-caption">江汉关 · 手绘意象</span><span id="scene-credit" class="photo-credit" hidden>照片：<a id="scene-credit-author" target="_blank" rel="noopener noreferrer"></a> / <a id="scene-credit-license" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a><br>已裁剪、调色</span></figcaption></figure><svg class="scene-icon" aria-hidden="true"><use id="scene-symbol" href="#boat"></use></svg></div>
+      <div class="scene-details"><p id="scene-description"></p><dl class="scene-guide"><div><dt>从哪里开始</dt><dd id="scene-start"></dd></div><div><dt>留点时间</dt><dd id="scene-duration"></dd></div></dl><p class="scene-comfort" id="scene-comfort"></p><p class="guide-note">建议时长不含交通；开放、预约和营业情况请以现场或官方信息为准。<a class="guide-source" id="scene-guide-source" target="_blank" rel="noopener noreferrer" hidden></a></p></div>
+      <div class="scene-actions"><div class="dialog-actions"><button class="primary-button" id="scene-save">放进今天</button><button class="quiet-button" data-close>算了，下次</button></div><p class="local-note">只放在你的浏览器里。</p></div>
+    </div>
+  </div></dialog>
+  <dialog id="pocket-dialog" aria-labelledby="pocket-title"><div class="pocket-card"><button class="dialog-close" data-close aria-label="关闭今天的口袋">×</button><p class="small-note">留着就好，不用照着走</p><h2 id="pocket-title">今天的口袋</h2><div id="pocket-list"></div><button class="quiet-button pocket-dismiss" data-close>收好，慢慢来</button></div></dialog>
+  <dialog id="excuse-dialog" aria-labelledby="excuse-title"><div class="scene-card"><button class="dialog-close" data-close aria-label="关闭遛弯借口卡">×</button><p class="small-note">大肥鱼给你找了个借口</p><div class="excuse-landmark"><img id="excuse-image" src="assets/clock_study.svg" width="72" height="72" alt="江汉关的低饱和线描示意插画"><span id="excuse-place">江汉关</span></div><h2 id="excuse-title">今天，随便逛。</h2><p id="excuse-text"></p><button class="quiet-button" data-close>收下，去不去再说</button></div></dialog>
+  <p class="notice" id="notice" role="status"></p>
+  <noscript><p class="noscript-note">打开 JavaScript 后，就可以戳泡泡、把下午放进口袋。</p></noscript>
+</body>
+</html>
